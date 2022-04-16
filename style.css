@@ -21,6 +21,7 @@ p {
 }
 #image {
   border-radius: 5px;
+  width: 100%;
 }
 #img-caption {
   font-size: 20px;
@@ -35,3 +36,9 @@ p {
 #tribute-info {
     text-align: left;
 }
+@media (max-width: 460px) {
+  #h1 #h2 #main {
+    width: 100%;
+  }
+}
+
