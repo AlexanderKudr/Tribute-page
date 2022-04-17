@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  background-color:aliceblue;
 }
 h1 {
   font-size: 30px;
@@ -7,38 +8,57 @@ h1 {
 h2 {
   font-size: 20px;
   font-weight: 400;
+  font-style: italic;
+}
+#headerbox {
+  background-color: #FFFAF5;
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
 }
 p {
   font-style: oblique;
   font-weight: 700;
   margin-bottom: 50px;
 }
-#title {
-  font-style: italic;
-}
 #img-div {
   padding: 10px 10px 10px 10px;
 }
-#image {
-  border-radius: 5px;
-  width: 100%;
-}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+} 
 #img-caption {
   font-size: 20px;
   font-style: italic;
   font-weight: 200;
+  padding: 10px 0px 0px 0px;
 }
 #main {
-  margin: 50px 50px 50px 50px;
-  padding-right: 150px;
-  padding-left: 150px;
+  margin: auto;
+  text-align: center;
+  width: 60vw;
+  background-color: #FFFAF5;
+  border: 0.1px;
+  border-style: groove;
+  border-radius: 5px;
 }
 #tribute-info {
     text-align: left;
+    max-width: 600px;
 }
 @media (max-width: 460px) {
   #h1 #h2 #main {
     width: 100%;
   }
 }
+a {
+  color: rgb(0, 0, 255);
+}
+a:visited {
+  color: #74638f;
+}
+
 
