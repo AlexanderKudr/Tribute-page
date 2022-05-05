@@ -47,7 +47,8 @@ img {
 }
 #tribute-info {
     text-align: left;
-    max-width: 600px;
+    max-width: 800px;
+    margin-left: 50px
 }
 @media (max-width: 460px) {
   #h1 #h2 #main {
