@@ -46,6 +46,7 @@ img {
   border: 0.1px;
   border-style: groove;
   border-radius: 5px;
+  padding-right: 30px;
 }
 #tribute-info {
     text-align: left;
